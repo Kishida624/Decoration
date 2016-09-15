@@ -30,8 +30,6 @@ public class Decorations {
 	@EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         proxy.preInit(event);
-        //Debugging Text:
-        LOG.info(ModBlocks.ALL_BLOCKS);
     }
 
     @EventHandler
