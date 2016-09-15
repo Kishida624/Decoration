@@ -4,6 +4,8 @@ import java.util.List;
 import java.util.Random;
 
 
+import kingdgrizzle.decorations.api.bounding.DecorationBoundingBoxes;
+import kingdgrizzle.decorations.api.collision.DecorationCollisionBoxes;
 import kingdgrizzle.decorations.common.Decorations;
 import kingdgrizzle.decorations.common.item.block.ItemBlockMod;
 import kingdgrizzle.decorations.common.lib.LibBlockNames;
@@ -23,9 +25,6 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class BlockFancyTorch extends BlockMod {
 	
 	// 1 / 16 = 0.0625
-	
-	private static final AxisAlignedBB BOUNDING_BOX = new AxisAlignedBB(0.0625 * 4, 0, 0.0625 * 4, 0.0625 * 12, 0.0625 * 8, 0.0625 * 12);
-	private static final AxisAlignedBB COLLISION_BOX = new AxisAlignedBB(0.0625 * 5, 0, 0.0625 * 5, 0.0625 * 11, 0.0625 * 6, 0.0625 * 11);
 	
 	public BlockFancyTorch() {
 		super(Material.CIRCUITS, LibBlockNames.FANCY_TORCH);
@@ -57,12 +56,12 @@ public class BlockFancyTorch extends BlockMod {
 	
 	@Override
 	public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos) {
-		return BOUNDING_BOX;
+		return DecorationBoundingBoxes.FANCY_TORCH_BB;
 	}
 
 	@Override
 	public void addCollisionBoxToList(IBlockState state, World worldIn, BlockPos pos, AxisAlignedBB entityBox, List<AxisAlignedBB> collidingBoxes, Entity entityIn) {
-		super.addCollisionBoxToList(pos, entityBox, collidingBoxes, COLLISION_BOX);
+		super.addCollisionBoxToList(pos, entityBox, collidingBoxes, DecorationCollisionBoxes.FANCY_TORCH_CB);
 	}
 	
 	@SideOnly(Side.CLIENT)

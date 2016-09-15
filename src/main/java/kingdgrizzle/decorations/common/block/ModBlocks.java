@@ -18,12 +18,14 @@ public class ModBlocks {
 	public static Block fancyTorch;
 	public static Block missing_no;
 	public static Block jar;
+    public static Block stonePath;
 	
 	public static void init() {
 		
 		fancyTorch = new BlockFancyTorch();
 		jar = new BlockJar();
 		missing_no = new BlockMissingTexture();
+        stonePath = new BlockStonePath();
 	}
 	
 	public static void initTileEntity() {

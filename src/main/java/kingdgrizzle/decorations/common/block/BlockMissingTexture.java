@@ -26,11 +26,6 @@ public class BlockMissingTexture extends BlockMod {
 
     @Override
     public void addInformation(ItemStack stack, EntityPlayer player, List<String> tooltip, boolean advanced) {
-
-    	if(advanced == true) {
-    		tooltip.add("Yo dawg");
-    	} else if(advanced == false) {
-            tooltip.add("This is for people who like the " + ChatFormatting.LIGHT_PURPLE +  "missing texture!");
-        }
+        tooltip.add("This is for people who like the " + ChatFormatting.LIGHT_PURPLE +  "missing texture!");
     }
 }
