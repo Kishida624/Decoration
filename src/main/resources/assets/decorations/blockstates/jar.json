@@ -1,0 +1,6 @@
+{
+      "variants": {
+           "color=clear": { "model" : "decorations:jars/clearJar"},
+           "color=white": { "model" : "decorations:jars/whiteJar"}       
+    }
+}

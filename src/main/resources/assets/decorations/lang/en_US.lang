@@ -1,0 +1,18 @@
+#Item
+item.creative_chisel.name=Creative Tab | Chisel (You shoudn't have this)
+item.wooden_carver.name=Wooden Carver
+
+
+
+#Blocks
+tile.decorations:fancyTorch.name=Fancy Torch
+tile.decorations:stonePath.name=Stone Path
+tile.decorations:jar0.name=Clear Cookie Jar
+tile.decorations:jar1.name=White Cookie Jar
+tile.decorations:work_station.name=Decoration Station
+tile.decorations:missingNo.name=Missing Texture
+
+
+#Tabs
+itemGroup.tabDecorations=Decorations | Main Items
+itemGroup.tabSecondDecorations=Decorations | Other Items

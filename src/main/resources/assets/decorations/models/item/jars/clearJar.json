@@ -1,0 +1,40 @@
+{
+  "parent": "decorations:block:jars/clearJar",
+  "display": {
+    "thirdperson_righthand": {
+        "rotation": [ -130, -45, 170 ],
+        "translation": [ 0.0, 6.5, 0.0 ],
+        "scale": [ 1.0, 1.0, 1.0 ]
+    },
+    "thirdperson_lefthand": {
+        "rotation": [ -130, -45, 170 ],
+        "translation": [ 0.0, 6.5, 0.0 ],
+        "scale": [ 1.0, 1.0, 1.0 ]
+    },
+    "head": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "ground": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 3.15, 0 ],
+        "scale": [ 1.0, 1.0, 1.0 ]
+    },
+    "firstperson_righthand": {
+        "rotation": [ -1, 45, 1 ],
+        "translation": [ -0.38, 3.95, 0.19 ],
+        "scale": [ 0.4, 0.4, 0.4 ]
+    },
+    "firstperson_lefthand": {
+        "rotation": [ -1, 45, 1 ],
+        "translation": [ -0.38, 4.0, 0.19 ],
+        "scale": [ 0.4, 0.4, 0.4 ]
+    },
+    "gui": {
+        "rotation": [ 35, 150, 0 ],
+        "translation": [ 0, 4.5, 0 ],
+        "scale": [ 1.5, 1.5, 1.5 ]
+    }
+}
+}

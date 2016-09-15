@@ -1,0 +1,14 @@
+[
+{
+  "modid": "decorations",
+  "name": "KingDGrizzle\'s Decorations Mod",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["KingDGrizzle"],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
